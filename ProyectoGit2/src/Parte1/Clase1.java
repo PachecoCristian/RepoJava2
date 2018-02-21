@@ -10,6 +10,8 @@ public class Clase1 {
 		int num = rng.nextInt(50)+1;
 		
 		System.out.println("El numero de la loteria de hoy es "+num+ " y el numero es"+espar(num) );
+		
+		System.out.println("Nueva Rama");
 	}
 	public static String espar(int num){
 		if(num % 2 ==0 )return "es par";
